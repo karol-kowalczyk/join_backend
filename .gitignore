@@ -1,0 +1,13 @@
+# Ignoriere die SQLite-Datenbankdatei
+db.sqlite3
+
+# Ignoriere alle SQLite-Backups (falls vorhanden)
+*.sqlite3-journal
+
+# Python-spezifische Ausschlüsse (falls du ein Django-Projekt hast)
+__pycache__/
+*.py[cod]
+*.env
+
+# Logs
+*.log
