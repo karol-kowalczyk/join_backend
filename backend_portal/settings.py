@@ -29,6 +29,16 @@ ALLOWED_HOSTS = [
     '34.90.144.16'
 ]
 
+import os
+
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),  # Falls du ein 'static'-Verzeichnis im Projekt hast
+]
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # Für Collectstatic
+
 
 # Application definition
 
