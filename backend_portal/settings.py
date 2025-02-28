@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-o63dkxb7@_buv&3fmfginlvxl**0v323#o@5i%kow0*k*cv+iv
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '34.90.144.16'
+    '34.90.144.16',
+    'join-backend.karol-kowalczyk.de'
 ]
 
 
